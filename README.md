@@ -7,9 +7,9 @@ M3UA stands for MTP Level 3 (MTP3) User Adaptation Layer as defined by the IETF 
 M3UA uses a complex state machine to manage and indicate states it's running. Several M3UA messages are mandatory to make a M3UA association or peering fully functional (ASP UP, ASP UP Acknowledge, ASP Active, ASP Active Acknowledge).
 
 # Why use M3UAScan
-M3UA scan is simple scanner that aims to help pentesters to identify nodes that has sctp ports opened with m3ua on top of it.
+M3UAscan is a simple scanner that aims to help pentesters to identify nodes that have sctp ports opene with M3UA on top of it.
 
-Detecting a node with M3UA is an indication that this is a  core node in a telecom infrastructure that provides signaling. This scanner could be helpful to identify signaling nodes exposed on the internet, that could be compromised and used as a gateway into the SS7 network.
+Detecting a node with M3UA is an indication that this is a  core node in a telecom infrastructure that provides signaling. This scanner could be helpful to identify signaling nodes exposed on the internet, which could be compromised and used as a gateway into the SS7 network.
 
 One benefit could be testing if telecom nodes are hardened and only form sctp associations with the nodes that they are suppose to connect to and testing if there is some filtering done on the nodes to prevent anyone from performing sctp associations with them.
 
